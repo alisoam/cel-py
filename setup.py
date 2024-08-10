@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name="cel-py",
-    packages=["cel-py"],
-    package_data={"cel-py": ["py.typed"]},
+    name="cel",
+    packages=["cel"],
+    package_data={"cel": ["py.typed"]},
     version="0.1.0",
     description="",
     author="Ali Sorour Amini",
