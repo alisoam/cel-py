@@ -1,9 +1,8 @@
 from typing import Self
+from unittest import TestCase
 from unittest.mock import Mock
 
-from django.test import TestCase
-
-from bidmeshk import cel
+import cel
 
 
 class TestDataclass(TestCase):
